@@ -1,0 +1,286 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+}
+
+/* start navbar */
+.navbar-brand {
+    margin-left: 50px;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    background-color: #2a40b8;
+    border-radius: 50%;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.logo a {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: black !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #2a40b8 !important;
+}
+
+.btn {
+    margin-right: 50px;
+}
+
+.btn:focus {
+    border: none;
+    outline: none;
+    box-shadow: rgba(0, 0, 0, 0);
+}
+
+.dropdown i {
+    margin-right: 20px;
+    background-color: #6e6e6e;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 50px;
+}
+
+/* end navbar */
+/* main section */
+.home {
+    background-image: url(../pics/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    text-align: center;
+    position: relative;
+}
+
+.home::before {
+    content: "";
+    background-color: rgba(61, 96, 203, 0.4);
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.home h3 {
+    position: absolute;
+    left: 43%;
+    top: 50%;
+    color: #fff;
+    font-weight: bold;
+
+}
+
+/* end main section */
+/* start about */
+.about {
+    margin: 100px 80px 80px;
+}
+
+.about .card {
+    position: relative;
+}
+
+.about .mb-3 {
+    margin: auto;
+    border: none !important;
+}
+
+.about .col-md-4 #pic-1 {
+    position: absolute;
+    border-radius: 20px !important;
+    bottom: 120px !important;
+}
+
+.about .col-md-4 #pic-2 {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    bottom: 50px;
+    left: -120px;
+    border-radius: 10px !important;
+}
+
+.about .col-md-4 .title-1 {
+    position: absolute;
+    width: 150px;
+    height: 70px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #fff;
+    color: #3450e6;
+    box-shadow: #3450e6 -12px 8px 0px;
+    top: 44px;
+    left: -67px;
+}
+
+.about .card-title {
+    color: #36363a;
+}
+
+.about .card-body h6 {
+    color: #202020;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.about .card-text i {
+    color: #3450e6;
+    margin-right: 10px;
+    font-size: 25px;
+}
+
+.about .card-body p {
+    color: #4f4f53;
+}
+
+/* end about */
+/* our services */
+.our-services {
+    position: relative;
+}
+
+.title-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    line-height: 1.5;
+    margin-top: 120px;
+}
+
+.title-2 .add-1 {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(52 80 230);
+}
+
+.title-2 .add-2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #101828;
+}
+
+.cards {
+    padding: 30px;
+}
+
+.our-services .card {
+    box-shadow: #f3f3f3 5px 0px 0px;
+}
+
+.our-services .card-title {
+    color: #000000;
+    font-weight: bold;
+}
+
+.our-services .card-title i {
+    margin-right: 15px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #3f5ae8;
+    background-color: #e4edff !important;
+}
+
+.our-services .card-text {
+    color: #717171;
+    font-size: 15px;
+    margin-top: 20px;
+}
+
+.our-services .btn {
+    padding: 0px;
+    color: #3f5ae8;
+}
+
+.our-services .btn i {
+    margin-left: 15px;
+    font-size: 18px;
+    color: #3f5ae8;
+}
+
+.our-services .dots {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    color: #3450e6;
+    bottom: -50px;
+    left: 0px;
+    margin: 0;
+    padding: 0;
+}
+
+.dots li {
+    list-style: none;
+    width: 10px;
+    height: 10px;
+    background-color: #d9d9d9;
+    margin: 50px 5px;
+    border-radius: 20px;
+}
+
+.dots .active {
+    width: 40px;
+    background-color: #3450e6;
+}
+
+/* end our services */
+/* choose us */
+.section-4 .mb-3 {
+    margin: 50px auto;
+    border: none;
+}
+
+.section-4 .card-body .card-title {
+    color: #3450e6;
+    font-weight: bold;
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.section-4 .card-body .card-text {
+    color: #646262;
+}
+
+/* end choose us */
+/* our mission */
+.our-mission .card {
+    border: none;
+}
+
+.our-mission .card img {
+    border-radius: 20px !important;
+}
+
+.our-mission .card-body {
+    margin-top: 55px;
+}
+
+.our-mission .card-body .card-title {
+    color: #3450e6;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.our-mission .card-body .card-text {
+    color: #504e4e;
+    font-size: 20px;
+}
+
+/* end our mission */
